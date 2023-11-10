@@ -27,10 +27,10 @@ func main() {
 
 	// Print opengl version
 	version := gl.GoStr(gl.GetString(gl.VERSION))
-	max_vertex_attributes := gl.GoStr(gl.GetString(gl.MAX_VERTEX_ATTRIBS))
+	// max_vertex_attributes := gl.GoStr(gl.GetString(gl.MAX_VERTEX_ATTRIBS))
 
 	log.Println("OpenGL version:", version)
-	log.Println("Maximum nr of vertex attributes supported:", max_vertex_attributes)
+	// log.Println("Maximum nr of vertex attributes supported:", max_vertex_attributes)
 
 	vertices := []float32{
 		0.0, 0.5, 0.0,
